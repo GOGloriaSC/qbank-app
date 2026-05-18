@@ -1,0 +1,31 @@
+.input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 12px;
+  border-radius: 10px;
+  background: #1e293b;
+  color: white;
+  outline: none;
+}
+
+.input::placeholder {
+  color: #94a3b8;
+}
+
+.input:focus {
+  box-shadow: 0 0 0 2px #7c3aed;
+}
+
+.btn-primary {
+  width: 100%;
+  padding: 12px;
+  border-radius: 10px;
+  background: #7c3aed;
+  color: white;
+  margin-top: 8px;
+  transition: 0.2s;
+}
+
+.btn-primary:hover {
+  background: #6d28d9;
+}
