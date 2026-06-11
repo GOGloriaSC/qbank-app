@@ -1,0 +1,32 @@
+/* quill-dark.css */
+.ql-editor {
+  background-color: #334155;
+  color: #e2e8f0;
+  min-height: 150px;
+}
+
+.ql-toolbar {
+  background-color: #1e293b;
+  border-color: #475569;
+  border-radius: 8px 8px 0 0;
+}
+
+.ql-stroke {
+  stroke: #cbd5e1;
+}
+
+.ql-fill {
+  fill: #cbd5e1;
+}
+
+.ql-picker-label {
+  color: #cbd5e1;
+}
+
+.ql-picker-item {
+  color: #1e293b;
+}
+
+.ql-editor.ql-blank::before {
+  color: #94a3b8;
+}
